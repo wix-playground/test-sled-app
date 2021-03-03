@@ -17,7 +17,7 @@ class App extends React.Component {
   /* <-- Please also remove `yoshi-template-intro` from your package.json */
   state = {};
   async componentDidMount() {
-    const { default: TemplateIntro } = await import('yoshi-template-intro');
+    const { default: TemplateIntro } = await import('@wix/yoshi-template-intro');
     this.setState({ TemplateIntro });
   } /* --> */
 
